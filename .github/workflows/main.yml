@@ -20,6 +20,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+          cache-dependency-path: 'backend/package-lock.json'
       # Install dependencies
       - name: Install dependencies
         run: |
@@ -36,4 +37,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: test-results
-          path: backend/test-results || backend/jest-results.xml
+          path: |
+            backend/test-results/**/*
+            backend/jest-results.xml
+          if-no-files-found: warn
