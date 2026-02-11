@@ -13,8 +13,10 @@ mongoose.connect(process.env.MONGO_URI, {
   .then(() => {
     console.log('MongoDB connected');
 
-    // Start the server only after DB connection
-    const PORT = process.env.PORT || 5000;
-    app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+    // Only start the server if NOT in test environment
+    if (process.env.NODE_ENV !== 'test') {
+      const PORT = process.env.PORT || 5000;
+      app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+    }
   })
-  .catch((err) => console.error('MongoDB connection error:', err));
+  .catch((err) => console.error('MongoDB connection error:', err));;
