@@ -59,7 +59,4 @@ jobs:
             backend/test-results/**/*
             backend/jest-results.xml
           if-no-files-found: warn
-          path: |
-            backend/test-results/**/*
-            backend/jest-results.xml
-          if-no-files-found: warn
+
