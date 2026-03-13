@@ -6,6 +6,8 @@ A secure and scalable backend application for managing software licenses, tracki
 
 ---
 
+![Image Alt](https://github.com/Jtdsiriwardena/KeyKeeper-Digital_License_Tracker/blob/e70b5f810fb3d6906ce85285d1d134475df427f6/Home_page_2.png) 
+
 ## 🚀 Features
 
 ### 🔐 Authentication & Authorization
@@ -54,7 +56,6 @@ A secure and scalable backend application for managing software licenses, tracki
 Implemented using:
 - [Jest](https://jestjs.io/)
 - [Supertest](https://github.com/ladjs/supertest)
-- [mongodb-memory-server](https://github.com/nodkz/mongodb-memory-server)
 
 Tested components:
 - Authentication routes
@@ -90,58 +91,34 @@ Authentication Middleware
 
 | Category | Technology |
 |---|---|
-| **Backend** | Node.js, Express.js (v5), MongoDB, Mongoose |
-| **Security** | JWT, bcryptjs, Custom Encryption Utility |
-| **Cloud Storage** | AWS S3 (AWS SDK v3), Multer |
+| **Backend** | Node.js, Express.js, MongoDB, Mongoose |
+| **Security** | JWT, bcryptjs |
+| **Cloud Storage** | AWS S3, Multer |
 | **Validation** | Joi |
 | **Automation** | node-cron, nodemailer |
-| **Testing** | Jest, Supertest, mongodb-memory-server |
+| **Testing** | Jest, Supertest |
 
 ---
 
 ## 📸 Screenshots
 
-### Authentication
-
-**Register API**
-
-> _Screenshot placeholder_
-
-**Login API**
-
-> _Screenshot placeholder_
 
 ### Product Management
 
-**Create Product**
-
-> _Screenshot placeholder_
-
 **Product List**
 
-> _Screenshot placeholder_
+![Image Alt](https://github.com/Jtdsiriwardena/KeyKeeper-Digital_License_Tracker/blob/9b364efee84e51e3efc8b6af638e5219fc5758e5/product_management.png) 
+
 
 ### License Management
 
 **Create License**
 
-> _Screenshot placeholder_
+![Image Alt](https://github.com/Jtdsiriwardena/KeyKeeper-Digital_License_Tracker/blob/406a2689dd6bec90d5978ed74acad1a0f2672f7d/License_management_2.png) 
 
 **License List**
 
-> _Screenshot placeholder_
-
-### Document Upload (AWS S3)
-
-**Upload License Document**
-
-> _Screenshot placeholder_
-
-### Cost Analytics
-
-**License Cost Summary**
-
-> _Screenshot placeholder_
+![Image Alt](https://github.com/Jtdsiriwardena/KeyKeeper-Digital_License_Tracker/blob/d6a9fddcd0934248c315632cb7098f076e59e46b/License_management_1.png) 
 
 ---
 
